@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace core;
 
 use app\QueryBuilder\QueryBuilder;
 

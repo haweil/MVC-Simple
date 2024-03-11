@@ -17,10 +17,11 @@ class ComposerStaticInit39e860caf30fd1dc734a31cf30cc4f9a
         'app\\controllers\\controller' => __DIR__ . '/../..' . '/app/controllers/controller.php',
         'app\\models\\HomePage' => __DIR__ . '/../..' . '/app/models/HomePage.php',
         'app\\models\\Product' => __DIR__ . '/../..' . '/app/models/Product.php',
-        'app\\models\\model' => __DIR__ . '/../..' . '/app/models/model.php',
         'core\\Database' => __DIR__ . '/../..' . '/Core/Database.php',
         'core\\Request' => __DIR__ . '/../..' . '/Core/Request.php',
         'core\\Route' => __DIR__ . '/../..' . '/Core/Route.php',
+        'core\\model' => __DIR__ . '/../..' . '/Core/model.php',
+
     );
 
     public static function getInitializer(ClassLoader $loader)

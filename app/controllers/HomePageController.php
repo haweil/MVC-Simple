@@ -9,7 +9,7 @@ class HomePageController extends controller
 {
     public function Home()
     {
-        $data = Product::all();
+        $data = HomePage::all();
         return $this->view("index",$data);
     }
     public function about()

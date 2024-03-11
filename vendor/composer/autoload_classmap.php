@@ -16,8 +16,9 @@ return array(
     'app\\controllers\\controller' => $baseDir . '/app/controllers/controller.php',
     'app\\models\\HomePage' => $baseDir . '/app/models/HomePage.php',
     'app\\models\\Product' => $baseDir . '/app/models/Product.php',
-    'app\\models\\model' => $baseDir . '/app/models/model.php',
     'core\\Database' => $baseDir . '/Core/Database.php',
     'core\\Request' => $baseDir . '/Core/Request.php',
     'core\\Route' => $baseDir . '/Core/Route.php',
+    'core\\model' => $baseDir . '/Core/model.php',
+
 );

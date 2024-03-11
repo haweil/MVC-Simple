@@ -1,0 +1,17 @@
+{
+    "name": "lenovo/mvc",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "haweil",
+            "email": "92003311+haweil@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
